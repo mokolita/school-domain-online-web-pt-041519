@@ -5,7 +5,7 @@ class School
   end 
   def initialize(name)
     @name = name
-    
+    roster << name 
   end 
 
   def add_student(name, grade)

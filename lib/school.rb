@@ -26,7 +26,7 @@ end
   end 
   
   def sort(num)  
-    @roster[num].sort
+    @roster.each do |
      
   end 
 

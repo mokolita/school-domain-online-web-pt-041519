@@ -25,8 +25,8 @@ end
     @roster[num]
   end 
   
-  def sort 
-    @roster[grade].sort
+  def sort(num)  
+    @roster[num].sort
      
   end 
 

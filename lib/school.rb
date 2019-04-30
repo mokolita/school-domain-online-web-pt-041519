@@ -22,7 +22,12 @@ class School
 end 
 
   def grade(num)
-    return @roster[num]
+    @roster[num]
+  end 
+  
+  def sort 
+  
+  
   end 
 
 end 

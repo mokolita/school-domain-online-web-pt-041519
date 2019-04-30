@@ -1,12 +1,15 @@
 class School
   
-   def roster
-     @roster = {}
-  end 
+    
   
   def initialize(name)
     @name = name
+    @roster = {}
   end 
+
+  def roster
+     @roster
+  end
 
   def add_student(name, grade)
     if @roster.include?(grade)
